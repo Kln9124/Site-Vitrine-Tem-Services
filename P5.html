@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tem Services | Livraison et envoi de colis en France et en Europe | Tem Services </title>
+    <link rel="stylesheet" href="indexV.css">
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    
+    <!-- header  -->
+    <header>
+        <!-- menu responsive -->
+        
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            
+            <p><span>Tem </span>Services</p>
+        </div>
+        <ul class="menu">
+            <a href="P8.html">Accueil</a>
+            <a href="P7.html">Recevoir un colis</a>
+            <a href="P6.html">Envoyer un colis</a>
+            <a href="P5.html">Nous contacter</a>
+            <a href="P4.php">Se connecter</a>
+        </ul>
+        <button class="login_btn">SE CONNECTER</button>
+    </header>
+<!-- section contact -->
+
+ <section id="contact">
+    <h1 class="section_title">Nos Services</h1>
+    <div class="localisation_contact_div">
+        <div class="localisation">
+            <h3>Notre Adresse</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d164.73892961439878!2d2.398695367459109!3d48.6515036001362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de546729bb63%3A0x2dfeaf7e3a2d2ef0!2s85%20bis%20Rte%20de%20Grigny%2C%2091130%20Ris-Orangis!5e0!3m2!1sfr!2sfr!4v1685458477973!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        </div>
+
+        <div class="form_contact">
+            <h3>Envoyer un message</h3>
+            <form action="#">
+                <input type="text"placeholder="Nom">
+                <input type="email"placeholder="Adresse Mail">
+                <input type="text"placeholder="Objet">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>Tem Services Copyright 2022 </p>
+    <p> Tél: 09 54 98 86 88
+        Mail: tem.services@free.fr</p>
+</footer>
+
+<script>
+    //menu responsive code JS
+
+    var menu_toggle = document.querySelector('.menu_toggle');
+    var menu = document.querySelector('.menu');
+    var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+    menu_toggle.onclick = function(){
+        menu_toggle.classList.toggle('active');
+        menu_toggle_span.classList.toggle('active');
+        menu.classList.toggle('responsive') ;
+    }
+
+</script>
