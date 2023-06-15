@@ -24,7 +24,7 @@ if (!isset($_SESSION['nomUtilisateur']) || $_SESSION['mdp'] !== true) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tem Services</title>
     <link rel="stylesheet" href="style.css">
-    <a href="P8.html">
+    <a href="index.html">
 </head>
 <body>
     <div class="container">
@@ -51,7 +51,7 @@ if (!isset($_SESSION['nomUtilisateur']) || $_SESSION['mdp'] !== true) {
         
         </form>
       <br>
-      
+
     <div class="container">
         <div class="header">
             <h2>Créer un compte</h2>
